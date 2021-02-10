@@ -13,6 +13,7 @@ KEYS_2D = [
     'ContinuousDoubleAuction-available_bids-Wood',
     'ContinuousDoubleAuction-my_asks-Wood',
     'ContinuousDoubleAuction-my_bids-Wood',
+    'action_mask',
 ]
 KEYS_1D = [
     'world-loc-row',

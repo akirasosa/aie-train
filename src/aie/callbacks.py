@@ -24,7 +24,7 @@ class MyCallbacks(DefaultCallbacks):
         social_metrics = pd.DataFrame([
             e.env.scenario_metrics()
             for e in envs
-        ]).filter(regex='^social', axis=1).mean().to_dict()
+        ]).mean().to_dict()
 
         for k, v in social_metrics.items():
             episode.custom_metrics[k] = v
