@@ -7,8 +7,8 @@ This repository provides some examples to train agents.
 ## Getting started
 
 1. Install [requirements](./requirements.txt).
-  * [AI Economist](https://github.com/salesforce/ai-economist)
-  * [RLlib](https://github.com/ray-project/ray#rllib-quick-start)
+    * [AI Economist](https://github.com/salesforce/ai-economist)
+    * [RLlib](https://github.com/ray-project/ray#rllib-quick-start)
 2. Run train script.
 ```
 cd src
@@ -122,7 +122,7 @@ The hyper parameters and the methods are not exact same with the original paper.
 
 * Used fc net, not conv net, with flatten observations.
 * Not used LSTM.
-  * I tried [train_lstm.py](src/train_lstm.py), but the result is almost same at least in free market.
+    * I tried [train_lstm.py](src/train_lstm.py), but the result is almost same at least in free market.
 * The value function shares weights with pi function.
 
 Some notes.
