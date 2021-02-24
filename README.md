@@ -2,7 +2,7 @@
 
 [AI Economist](https://blog.einstein.ai/the-ai-economist/) is a project which aims to research the dynamics of economics by RL. The gym like environment is provided as [salesforce/ai-economist](https://github.com/salesforce/ai-economist).
 
-This repository provides some examples to train agents.
+This repository provides some examples to train agents. Refer more details on my [blog post](https://medium.com/vitalify-asia/ai-economist-sums-up-communism-21260e5540f8).
 
 ## Getting started
 
